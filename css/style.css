@@ -1,0 +1,156 @@
+/*STYLING GERAL*/
+
+* {
+    margin: 0;
+    border: 0;
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+    font-family: 'Ubuntu';
+    font-style: normal;
+}
+
+/*STYLING PARA O CABEÇALHO E O RODAPÉ DE TODAS AS PÁGINAS*/
+
+header, footer{
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6.39vw;
+    background-color: rgba(46, 148, 138, 1);
+    height: 117px;
+    width: 100vw;
+}
+/*Como tods as outras características foram estilizada acima, basta estilizar a altura do footer*/
+footer{
+    height: 207px;
+    padding: 0 9.17vw;
+}
+
+/*Estilização das imagens do cabeçalho e rodapá*/
+#img-header{
+    width: 17vw; /*a largura do elemento será 17% (pelo figma: 244px/1440px), relativo ao View Window Width (largura da área de visualização) */
+    height: 5.5vw;   
+}
+#img-footer{
+    width: 21.86vw;
+    height: 7.1vw;
+}
+
+/*Estilização dos links do cabeçalho e rodapé*/
+.header-link, .footer-link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+    margin: 0 2.78vw;
+}
+.footer-link{
+    text-transform: lowercase;
+    font-weight: 400;
+}
+.nav-footer, .div-footer{
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*ESTILIZAÇÃO DOS BOTÕES INTERATIVOS*/
+
+/***********************************
+
+    A ESTRATÉGIA E SEPARAR TUDO PAR 
+FACILITAR MUDANÇAS FUTURAS.
+
+************************************/
+
+.botao{/*ESTILIZA APENAS O BÁSICO DO BOTÃO*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 6.5px;
+    height: 51px;
+    width: 289px;
+    border-radius: 62px;
+}
+.preenchimento-transparente{
+    background-color: transparent;
+}
+.preenchimento-azul{
+    background-color:  #2E948A;
+}
+.preenchimento-rosa{
+    background-color: #FF4081;
+}
+.contorno-branco{ /*DÁ A ELE UMA BORDA BRANCA*/
+    border: 2px solid #FFFFFF;
+}
+.contorno-azul{
+    border: 2px solid #2E948A;
+}
+.contorno-rosa{
+    border: 2px solid #FF4081;
+}
+.texto-branco{ /*ESTILIZA A FONTE*/
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.texto-rosa{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+}
+
+/*ESTILIZAÇÃO DOS TEXTOS*/
+
+/**********************************************************
+
+DIVIDI TODOS OS TITULOS EM 3 TIPOS:
+
+    > H1
+    > H2
+    > H3
+
+Cada um poderá receber uma de 2 cores disponíveis:
+    1 - rosa =  #FF4081;
+    2 - azul =  #2E948A;
+
+***********************************************************/
+h1, h2, h3{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 50px;
+}
+
+h3{
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.rosa{
+    color: #FF4081;
+}
+
+.azul{
+    color: #2E948A;
+}
+
+
+
+
+
+
+
+
+
+
