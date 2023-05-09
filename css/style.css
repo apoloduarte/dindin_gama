@@ -4,7 +4,7 @@
     margin: 0;
     border: 0;
     display: flex;
-    overflow: hidden;
+    overflow: auto;
     flex-wrap: wrap;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -109,47 +109,44 @@ FACILITAR MUDANÇAS FUTURAS.
 /*ESTILIZAÇÃO DOS TEXTOS*/
 
 /**********************************************************
-AS TAGS h1 PODEM SER USADAS NO PRIMEIRO TITULO DAS PÁGINAS:
-    > inicio
-    > cursos
-    > curso
 
-obs: tags h2 e h3 estão aqui para aproveitar a estilização 
-das fontes.
+DIVIDI TODOS OS TITULOS EM 3 TIPOS:
+
+    > H1
+    > H2
+    > H3
+
+Cada um poderá receber uma de 2 cores disponíveis:
+    1 - rosa =  #FF4081;
+    2 - azul =  #2E948A;
+
 ***********************************************************/
 h1, h2, h3{
     font-weight: 700;
     font-size: 60px;
     line-height: 69px;
-    color: #FF4081;
 }
-/**********************************************************
-AS TAGS h2 E h3 PODEM SER USADAS NOS TITULOS SECUNDÁRIOS 
-DAS PÁGINAS:
-    > inicio
-    > cursos
-***********************************************************/
 
-h2, h3{
-    font-size: 37px;
-    line-height: 43px;
-    color: #009688;
+h2{
+    font-size: 40px;
+    line-height: 50px;
 }
 
 h3{
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.rosa{
     color: #FF4081;
 }
 
-/**********************************************************
-AS TAGS h4 PODEM SER USADAS NOS TITULOS SECUNDÁRIOS 
-DAS PÁGINAS:
-    > inicio
-    > cursos
-***********************************************************/
-
-h4{
-    
+.azul{
+    color: #2E948A;
 }
+
+
+
 
 
 
