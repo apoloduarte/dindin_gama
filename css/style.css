@@ -1,0 +1,88 @@
+/*STYLING GERAL*/
+
+* {
+    margin: 0;
+    border: 0;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    font-family: 'Ubuntu';
+}
+
+/*STYLING PARA O CABEÇALHO E O RODAPÉ DE TODAS AS PÁGINAS*/
+
+header, footer{
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6.39vw;
+    background-color: rgba(46, 148, 138, 1);
+    height: 117px;
+    width: 100vw;
+}
+/*Como tods as outras características foram estilizada acima, basta estilizar a altura do footer*/
+footer{
+    height: 207px;
+    padding: 0 9.17vw;
+}
+
+/*Estilização das imagens do cabeçalho e rodapá*/
+#img-header{
+    width: 17vw; /*a largura do elemento será 17% (pelo figma: 244px/1440px), relativo ao View Window Width (largura da área de visualização) */
+    height: 5.5vw;   
+}
+#img-footer{
+    width: 21.86vw;
+    height: 7.1vw;
+}
+
+/*Estilização dos links do cabeçalho e rodapé*/
+.header-link, .footer-link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+    margin: 0 2.78vw;
+}
+.footer-link{
+    text-transform: lowercase;
+    font-weight: 400;
+}
+.nav-footer, .div-footer{
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*ESTILIZAÇÃO DOS BOTÕES INTERATIVOS*/
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 6.5px;
+    height: 51px;
+    width: 289px;
+    border-radius: 62px;
+}
+.contorno-branco{
+    border: 2px solid #FFFFFF;
+}
+.texto-branco{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
