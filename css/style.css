@@ -57,7 +57,14 @@ footer{
 
 /*ESTILIZAÇÃO DOS BOTÕES INTERATIVOS*/
 
-.botao{
+/***********************************
+
+    A ESTRATÉGIA E SEPARAR TUDO PAR 
+FACILITAR MUDANÇAS FUTURAS.
+
+************************************/
+
+.botao{/*ESTILIZA APENAS O BÁSICO DO BOTÃO*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,10 +74,10 @@ footer{
     width: 289px;
     border-radius: 62px;
 }
-.contorno-branco{
+.contorno-branco{ /*DÁ A ELE UMA BORDA BRANCA*/
     border: 2px solid #FFFFFF;
 }
-.texto-branco{
+.texto-branco{ /*ESTILIZA A FONTE*/
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
