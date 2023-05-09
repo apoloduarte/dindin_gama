@@ -7,6 +7,7 @@
     overflow: hidden;
     flex-wrap: wrap;
     font-family: 'Ubuntu';
+    font-style: normal;
 }
 
 /*STYLING PARA O CABEÇALHO E O RODAPÉ DE TODAS AS PÁGINAS*/
@@ -38,7 +39,6 @@ footer{
 /*Estilização dos links do cabeçalho e rodapé*/
 .header-link, .footer-link{
     text-decoration: none;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
@@ -74,18 +74,82 @@ FACILITAR MUDANÇAS FUTURAS.
     width: 289px;
     border-radius: 62px;
 }
+.preenchimento-transparente{
+    background-color: transparent;
+}
+.preenchimento-azul{
+    background-color:  #2E948A;
+}
+.preenchimento-rosa{
+    background-color: #FF4081;
+}
 .contorno-branco{ /*DÁ A ELE UMA BORDA BRANCA*/
     border: 2px solid #FFFFFF;
 }
+.contorno-azul{
+    border: 2px solid #2E948A;
+}
+.contorno-rosa{
+    border: 2px solid #FF4081;
+}
 .texto-branco{ /*ESTILIZA A FONTE*/
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
 }
+.texto-rosa{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+}
 
+/*ESTILIZAÇÃO DOS TEXTOS*/
+
+/**********************************************************
+AS TAGS h1 PODEM SER USADAS NO PRIMEIRO TITULO DAS PÁGINAS:
+    > inicio
+    > cursos
+    > curso
+
+obs: tags h2 e h3 estão aqui para aproveitar a estilização 
+das fontes.
+***********************************************************/
+h1, h2, h3{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+}
+/**********************************************************
+AS TAGS h2 E h3 PODEM SER USADAS NOS TITULOS SECUNDÁRIOS 
+DAS PÁGINAS:
+    > inicio
+    > cursos
+***********************************************************/
+
+h2, h3{
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+}
+
+h3{
+    color: #FF4081;
+}
+
+/**********************************************************
+AS TAGS h4 PODEM SER USADAS NOS TITULOS SECUNDÁRIOS 
+DAS PÁGINAS:
+    > inicio
+    > cursos
+***********************************************************/
+
+h4{
+    
+}
 
 
 
