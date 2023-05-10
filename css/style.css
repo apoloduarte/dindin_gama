@@ -246,12 +246,12 @@ JUSTIFICADOS AO CENTRO.
 
 
 .div-2-inicio{/*Estilizamos todo o carrocel*/
-    background-color: #F7F7F7;;
+    background-color: #F7F7F7;
     padding: 7.6vw  0;
 }
 
 .subdiv-2-inicio{/*Estilizamos as dimensões dos cards*/
-    width: 21.1vw;
+    width: 25vw;
     min-width: 304px;
     height: 34.9vw;
     min-height: 502px;
@@ -261,6 +261,10 @@ JUSTIFICADOS AO CENTRO.
 }
 .subdiv-2-inicio p{/*Assim como no parágrafo de suporte*/
     margin: 25px 0; 
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: black;
 }
 
 
