@@ -156,19 +156,43 @@ h3{
 
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "INICIO"*/
-.div-1-inicio{
-    flex-direction: line;    
+
+/*Primeira section "Educação Financeira é tudo de bom"*/
+.div-1-inicio, .div-2-inicio{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 9.4vw 0 4.6vw 0;
 }
-.subdiv-1-inicio{    
+.subdiv-1-inicio, .subdiv-2-inicio{  
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    
 }
 
+.subdiv-2-inicio{
+    justify-content: center;
+}
+
+#index-ilustra-banner{
+    display: flex;
+    justify-content: space-evenly;
+    width: 34.8vw;
+    height: 35.49vw;
+    min-width: 334px;
+    min-height: 340.7px;
+    
+}
 .subdiv-1-inicio h1{
     width: 32vw;
     height: auto;
 }
+
+/*Segunda Section "Carrocel Cursos"*/
+
+
+
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "INICIO"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSOS"*/
