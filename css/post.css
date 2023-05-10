@@ -1,0 +1,98 @@
+*{
+    margin: auto;
+}
+/* page post */
+#main-ctr{
+    width: 1032px;
+    padding-bottom: 40px;
+}
+
+/* titulo inicial da pagina */
+.txt-cinza h2{
+    text-align: center;
+    align-items: center;
+    width: 758px;
+    height: 70px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #FF4081;
+}
+/* caixa cinza referente a imagem */
+.cinza-L{
+    width: 1032px;
+    height: 465px;
+    background-color: #C4C4C4;
+}
+/* paragrafos e subtitulos dos textos */
+#main-ctr p{
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+#main-ctr h4{
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #419488;
+}
+/* caixa de texto do footer de conteudos */
+.tt-ft{
+    align-items: center;
+    text-align: center;
+    width: auto;
+    padding: 2em;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 57px;
+    color: #FF4081;
+    background-color: #F7F7F7;
+}
+/* Bloco da separação dos conteudos  */
+#related{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    gap: 150px;
+    padding: 1em;
+    height:599px;
+    background-color: #F7F7F7;
+    
+}
+/* comando para padronização dos sections */
+#related section{
+    width: 344px;
+    height: 35px;
+    margin: 50px;
+}
+/* ajuste dos tamanhos das imagens */
+.img-ft{
+    height: 279.06px;
+}
+/* Ajuste dos textos das sections*/
+section h4{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    padding: 1em;
+    color: #FF4081;
+}
+section p{
+    padding: 1em;
+}
+/* Style dos botões */
+button{
+    width: 233px;
+    height: 62px;
+
+    border-radius: 62px;
+    color: #FFFFFF;
+    background: #FF4081;
+    border-color: transparent;
+}
+
+/* page cursos */
+
