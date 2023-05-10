@@ -20,11 +20,13 @@ header, footer{
     justify-content: space-between;
     padding: 0 6.39vw;
     background-color: rgba(46, 148, 138, 1);
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
     height: 117px;
     width: 100vw;
 }
 /*Como tods as outras características foram estilizada acima, basta estilizar a altura do footer*/
 footer{
+    box-shadow: none;
     overflow: auto;
     flex-wrap: wrap;
     height: 207px;
@@ -154,42 +156,117 @@ h3{
     color: #2E948A;
 }
 
+/*ESTILIZAÇÃO ESPECÍFICA PARA CRIAÇÃO DE CARDS*/
+
+/*               INSTRUÇÕES:                  */
+/*
+    0 - TODO CONTAINER/DIV QUE CONETNHA UM CAR-
+ROCEL DE CARDS, DEVE CONTER A CLASSE "card-con-
+tainer"; 
+    1 - TODO CARD DEVE CONTER A CLASSE ".card"
+NA SUA DIV PAI;
+    2 - TODO ELEMENTO DO CARD DEVE CONTER A 
+CLASSE "elemento-card";
+    3 - DEVE-SE CRIAR UMA CLASSE ESPECÍFICA PARA
+CADA CLASSE ONDE SE ESPECIFIQUEM AS DIMENSÕES DA 
+DIV PAI.
+    4 - POR DEFAULT, TODO CARD TERÁ OS ELEMENTOS
+JUSTIFICADOS AO CENTRO.
+*/
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+}
+.card{
+    flex-direction: column;  
+    text-align: center;   
+}    
+.elemento-card{
+    align-items: center;
+    margin: auto;
+}
+#img-card{
+    object-fit: cover;
+    width: auto;
+    min-width: 200px ;
+    height: 18.8vw;
+    min-height: 270px;
+}
+
+/*********************************************************
+
+    A PARTIR DAQUI, COMEÇAM AS ESTILIZAÇÕES ESPECÍFICAS
+                À CADA PÁGINA DO PROJETO.
+
+**********************************************************/
+
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "INICIO"*/
 
 /*Primeira section "Educação Financeira é tudo de bom"*/
-.div-1-inicio, .div-2-inicio{
+
+.div-1-inicio{/*setamos as dimenções da div que contei o card "Educação Financeira é tudo de bom"*/
     width: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     margin: 9.4vw 0 4.6vw 0;
 }
-.subdiv-1-inicio, .subdiv-2-inicio{  
-    flex-direction: column;
-    justify-content: center;
-    
+.subdiv-1-inicio{/*sobrescrevemos as propriedades de alinhamento para que
+                 tudo se alinhe à esqued nesse card, como no Figma      */
+      margin: 0;
+      text-align: left;
 }
-
-.subdiv-2-inicio{
-    justify-content: center;
-}
-
-#index-ilustra-banner{
+#index-ilustra-banner{/*Configuramos as dimensões da imagem da primeira div*/
     display: flex;
     justify-content: space-evenly;
     width: 34.8vw;
     height: 35.49vw;
     min-width: 334px;
     min-height: 340.7px;
-    
 }
-.subdiv-1-inicio h1{
+.subdiv-1-inicio h1{/*dimensionamos a área da caixa de testo contendo o título*/
     width: 32vw;
     height: auto;
 }
+.subdiv-1-inicio p{/*Especificamos as dimensões para o parágrafo que segue o 
+                   título, assim como as características da fonte          */
+    width: 25vw;
+    height: 4.3vw;
+    margin: 19px 0 38px 0;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+}
+.subdiv-1-inicio a{
+    margin: 0;/*Esta linha garante que o botão esteja alinhado à esqueda*/
+}
 
-/*Segunda Section "Carrocel Cursos"*/
+
+/*        Segunda section: Carrocel de Cursos      */
+
+
+.div-2-inicio{/*Estilizamos todo o carrocel*/
+    background-color: #F7F7F7;;
+    padding: 7.6vw  0;
+}
+
+.subdiv-2-inicio{/*Estilizamos as dimensões dos cards*/
+    width: 21.1vw;
+    min-width: 304px;
+    height: 34.9vw;
+    min-height: 502px;
+}
+.subdiv-2-inicio h3{/*Garantimos espaçamento adequado neste título*/
+    margin-top: 45px;
+}
+.subdiv-2-inicio p{/*Assim como no parágrafo de suporte*/
+    margin: 25px 0; 
+}
+
+
+/*           Terceira section: Depoimentos          */
+
+
 
 
 
