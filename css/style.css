@@ -98,7 +98,7 @@ FACILITAR MUDANÇAS FUTURAS.
 .preenchimento-rosa{
     background-color: #FF4081;
 }
-.contorno-branco{ /*DÁ A ELE UMA BORDA BRANCA*/
+.contorno-branco{ /*DÁ A ELE UM CONTORNO BRANCO*/
     border: 2px solid #FFFFFF;
 }
 .contorno-azul{
@@ -172,6 +172,25 @@ CADA CLASSE ONDE SE ESPECIFIQUEM AS DIMENSÕES DA
 DIV PAI.
     4 - POR DEFAULT, TODO CARD TERÁ OS ELEMENTOS
 JUSTIFICADOS AO CENTRO.
+
+ESTRUTURA PADRÃO PARA NO HTML::after
+
+    <div class="card-container">
+        <div class="card">
+            <h1 class="elemento-card">TextoTextoTexto</h1>
+            <a class="elemento-card" href="link">LinkLinkLink</a>
+        </div>
+        <div class="card">
+            <h1 class="elemento-card">TextoTextoTexto</h1>
+            <a class="elemento-card" href="link">LinkLinkLink</a>
+        </div>
+        .
+        .
+        .
+    </div>
+ 
+VEJA LINHA 33 DO ARQUIVO "index.html"
+  
 */
 .card-container{
     display: flex;
@@ -204,7 +223,7 @@ JUSTIFICADOS AO CENTRO.
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "INICIO"*/
 
-/*Primeira section "Educação Financeira é tudo de bom"*/
+/*Primeira div "Educação Financeira é tudo de bom"*/
 
 .div-1-inicio{/*setamos as dimenções da div que contei o card "Educação Financeira é tudo de bom"*/
     width: 100vw;
@@ -242,7 +261,7 @@ JUSTIFICADOS AO CENTRO.
 }
 
 
-/*        Segunda section: Carrocel de Cursos      */
+/*        Segunda div: Carrocel de Cursos      */
 
 
 .div-2-inicio{/*Estilizamos todo o carrocel*/
@@ -268,7 +287,42 @@ JUSTIFICADOS AO CENTRO.
 }
 
 
-/*           Terceira section: Depoimentos          */
+/*           Terceira div: Depoimentos          */
+
+.div-3-inicio{/**/
+    
+}
+.subdiv-3-inicio{/*Estilizamos as dimensões dos cards*/
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: start;
+    flex-direction: row;
+    width: 35vw;
+    height: 10vw;
+}
+.depoimento, .nome-depoente{
+    text-align: left;
+}
+.depoimento{
+    width: 25.2vw;
+    height: 4.88vw;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+.nome-depoente{
+    width: 25.2vw;
+    height: auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+#img-depoente{
+   height: 9vw;
+   width: 9vw;
+}
 
 
 
