@@ -24,6 +24,14 @@ header, footer{
     height: 117px;
     width: 100vw;
 }
+/* @media (max-width: 1000px){
+    header{
+        width: 
+    }
+    footer{
+        width: 
+    }
+} */
 /*Como tods as outras características foram estilizada acima, basta estilizar a altura do footer*/
 footer{
     box-shadow: none;
