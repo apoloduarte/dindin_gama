@@ -10,6 +10,7 @@ body{
     flex-wrap: wrap;
     font-family: 'Ubuntu';
     font-style: normal;
+    overflow-x: hidden;
 }
 
 /*STYLING PARA O CABEÇALHO E O RODAPÉ DE TODAS AS PÁGINAS*/
