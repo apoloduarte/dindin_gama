@@ -197,7 +197,7 @@ ESTRUTURA PADRÃO PARA NO HTML::after
         .
     </div>
  
-VEJA LINHA 33 DO ARQUIVO "index.html"
+VEJA LINHA 40 DO ARQUIVO "index.html"
   
 */
 .card-container{
@@ -233,7 +233,7 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 
 /*Primeira div "Educação Financeira é tudo de bom"*/
 
-.div-1-inicio{/*setamos as dimenções da div que contei o card "Educação Financeira é tudo de bom"*/
+.div-1-inicio{/*setamos as dimensões da div que contei o card "Educação Financeira é tudo de bom"*/
     width: 100vw;
     margin: 9.4vw 0 4.6vw 0;
 }
@@ -297,23 +297,25 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 
 /*           Terceira div: Depoimentos          */
 
-.div-3-inicio{/**/
-    
+.div-3-inicio{
+    padding-bottom: 10.8vw;
+}
+.titulo-3e4-inicio{
+    padding: 8.3vw 49% 5.4vw 8.9vw;    
 }
 .subdiv-3-inicio{/*Estilizamos as dimensões dos cards*/
     display: inline-flex;
     justify-content: space-around;
     text-align: start;
     flex-direction: row;
-    width: 35vw;
+    width: 36vw;
     height: 10vw;
 }
 .depoimento, .nome-depoente{
     text-align: left;
-    
 }
 .depoimento{
-    width: 25.2vw;
+    width: 22.5vw;
     height: 4.88vw;
     font-weight: 300;
     font-size: 15px;
@@ -321,8 +323,8 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
     color: #000000;
 }
 .nome-depoente{
-    width: 25.2vw;
-    height: auto;
+    width: 22.5vw;
+    height: 2vw;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -334,8 +336,36 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 }
 
 
+/*       Quarta div: "Mais Conteúdo Para Você"      */
 
-
+.div-4-inicio{
+    align-items: center;
+    background-color: #F7F7F7;
+    padding-bottom: 3.7vw;    
+}
+.subdiv-4-inicio{
+    width: 22.2vw;
+    margin: 0 5%;
+}
+.titulo-post-inicio{
+    padding-top: 1%;
+    text-align: start;
+}
+.subtitulo-post-inicio{
+    text-align: start;
+    width: 22.2vw;
+    padding-bottom: 7vw;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;   
+}
+#img-mockup{
+    width: 100%;
+}
+.botao-ver-posts{
+    justify-content: space-around;
+}
 
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "INICIO"*/
 
