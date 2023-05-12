@@ -424,5 +424,37 @@ VEJA LINHA 40 DO ARQUIVO "index.html"
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "BLOG"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "POST"*/
+
+.container-post{ /* Padronização de largura e altura do elemento container */
+    padding: 7.7vw 14.1vw 7.7vw 14.1vw; 
+}
+
+#img-p5{ /* Dimencionamento da imagem principal da pagina */
+    width: 72vw;
+    height: auto;
+    margin: 70px 0px 70px 0;
+}
+
+.data-post{ /* Estilização da fonte abaixo do titulo */
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9D9D9D;
+    margin-top: 12px;
+}
+
+.texto-post{ /* Padronização para o paragrafo se iniciar a esqueda */
+    text-align: start;
+}
+
+.subtitulo-post{ /* Padronização para os subtitulos se iniciarem a esqueda */
+    text-align: start;
+}
+
+.subtitulo1-post{ /* Alinhamento titulo das imagens do card final */
+width: 100vw;
+padding-bottom: 101px;
+}
+
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "POST"*/
 
