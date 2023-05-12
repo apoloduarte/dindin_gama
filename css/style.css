@@ -476,6 +476,46 @@ VEJA LINHA 40 DO ARQUIVO "index.html"
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CONTATO"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "BLOG"*/
+#cabc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding-bottom: 89px;
+}
+#cabc section{
+    width: 461px;
+    height: 110px;
+    text-align: start;
+    
+    
+}
+#cabc h2{
+    padding-bottom: 40px;
+}
+.cont{
+    background-color: #F7F7F7;
+}
+#img-blog{
+    width: 36vw;
+    height: 17vw;
+}
+.blog-card{
+    width: 36vw;
+}
+.pad-top{
+    padding-top: 100px;
+}
+.txt-rs{
+    text-align: start;
+}
+.txt-cont{
+    text-align: start;
+    padding-bottom: 100px;
+}
+.pad-bt{
+    padding-bottom: 170px;
+}
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "BLOG"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "POST"*/
