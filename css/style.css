@@ -333,8 +333,47 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSOS"*/
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSOS"*/
+ main {
+    display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;  
+ }
 
-/*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSO"*/
+ .al1 img {
+    
+ }
+
+.al1{
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+    margin-left: 30%;
+    padding: 100px;
+}
+
+.al1 p {
+    
+}
+
+.al2{
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+    margin-left: 30%;
+}
+
+.al3{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSO"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CONTATO"*/
