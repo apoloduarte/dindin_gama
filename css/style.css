@@ -371,6 +371,61 @@ VEJA LINHA 40 DO ARQUIVO "index.html"
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "INICIO"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSOS"*/
+
+.conteudo-pagina2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom: 160px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.titulo-pagina2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  
+}
+.paragrafopagina2{
+    font-size: 20px;
+    color: #555555;
+    }
+.cards-pagina2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 140px;
+  
+}
+.card-pagina2 {
+    display: flex;
+    
+
+}
+.elementos-card-pagina2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    margin-left:3%;
+}
+
+.paragrafocardpagina2{
+    font-size: 18px;
+    text-align: left;
+}
+.botao-pagina2 {
+    align-items: center;
+}
+
+.linhahorizontal {
+    border: 5px solid #c4c4c4;
+    width: 100%;
+}
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSOS"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSO"*/
