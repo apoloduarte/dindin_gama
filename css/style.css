@@ -473,10 +473,6 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 }
 
 
-.textoaula {
-
-}
-
 .aulas{
     width:100%;
 }
@@ -493,9 +489,6 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
     padding: 3% 0;
 }
 
-.aulas 
-
-
 .fundo {
     width: 100vw;
     height: 1200px;
@@ -504,161 +497,23 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 
 
 .linha {
-    border: 5px solid #c4c4c4;
-    width: 100%;
+
+width: 90%;
+height: 3px;
+left: 98px;
+top: 1480px;
+
+background: #C4C4C4;
 }
 
 .linha1 {
-    border: 5px solid #c4c4c4;
-    width: 100%;
+    width: 90%;
+height: 3px;
+left: 98px;
+top: 1480px;
+
+background: #C4C4C4;
 }
-
-.retangulo {
-    box-sizing: border-box;
-    text-align: start;
-    margin-right: 30px;
-    display: flex;
-    width: 462px;
-    height: 261px;
-    left: 213px;
-    top: 734px;
-
-    border: 3px solid #8E8E8E;
-}
-
-.retangulo1 {
-    box-sizing: border-box;
-
-    width: 462px;
-    height: 261px;
-    left: 212px;
-    top: 1146px;
-
-    border: 3px solid #8E8E8E;
-}
-
-.retangulo2 {
-    box-sizing: border-box;
-
-    
-    width: 462px;
-    height: 261px;
-    left: 212px;
-    top: 1558px;
-
-    border: 3px solid #8E8E8E;
-}
-
-
-.al1 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 200px;
-    padding: 100px;
-}
-
-.al2 {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    height: 400px;
-}
-
-.al3 {
-    text-align: center;
-    width: 1050px;
-    height: 400px;
-    justify-content: center;
-}
-
-
-.al1 h2 {
-
-    width: 512px;
-    height: 40px;
-    left: 751px;
-    top: 734px;
-}
-
-.card-al1 {
-
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-
-
-}
-
-.al1 p {
-
-
-    width: 501px;
-    height: 195px;
-    left: 751px;
-    top: 800px;
-}
-
-.al2 p {
-
-    
-    width: 501px;
-    height: 195px;
-    left: 750px;
-    top: 1212px;
-}
-
-.al2 h2 {
-    
-    width: 106px;
-    height: 40px;
-    left: 750px;
-    top: 1146px;
-}
-
-.al3 h2 {
-    
-    width: 512px;
-    height: 40px;
-    left: 750px;
-    top: 1558px;
-}
-
-.al3 p {
-
-    
-    width: 501px;
-    height: 195px;
-    left: 750px;
-    top: 1624px;
-}
-
-.card-al1 {
-    display: flex;
-    flex-direction: column;
-    width: 1050px;
-    height: 74px;
-    margin: 75px, 177px, 899px, 213px;
-
-}
-
-.card-al2 {
-    text-align: center;
-    display: flex;  
-    flex-direction: column;
-    width: 1050px;
-    height: 500px;
-
-}
-
-.card-al3 {
-    text-align: center;
-    display: flex;  
-    flex-direction: column;
-    
-}
-
-
 
 
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSO"*/
