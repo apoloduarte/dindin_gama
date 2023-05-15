@@ -390,7 +390,7 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 .pag-cursos {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    width: 100%;
     gap: 50px;
     margin-top: 100px;
     margin-bottom: 160px;
@@ -398,14 +398,28 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
     margin-right: 80px;
 }
 
+.card-intro {
+    text-align: left;
+    display: flex;
+    width: auto;
+    height: 381px;
+    left: 202px;
+    top: 197px;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
 .intro {
     display: flex;
     text-align: center;
     height: 400px;
+    justify-content: center;
+    padding: 3%;
 }
 
 .intro h1 {
-    position: absolute;
+
     width: 512px;
     height: 126px;
     left: 202px;
@@ -421,7 +435,7 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 }
 
 .intro p {
-    position: absolute;
+
     width: 461px;
     height: 186px;
     left: 202px;
@@ -438,7 +452,7 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 }
 
 .intro img {
-    position: absolute;
+
     left: 52.15%;
     right: 21.46%;
     top: 9.38%;
@@ -449,12 +463,42 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 
 /*EM CIMA É A INTRODUÇÃO DOS CURSOS*/
 
-.quadro {
-    width: 1440px;
-    height: 1235px;
-    left: 0px;
-    top: 659px;
+.cursotitulo, .cursodesc {
+    padding: 3%;
+}
 
+.cardaulas {
+    width:100%;
+    padding: 0 30%;
+}
+
+
+.textoaula {
+
+}
+
+.aulas{
+    width:100%;
+}
+
+#img-aula{
+    width: 462px;
+    height: 261px;
+}   
+
+.fundo {
+    height: 1200px;
+    width:100vw;
+    background: #F7F7F7;
+    padding: 3% 0;
+}
+
+.aulas 
+
+
+.fundo {
+    width: 100vw;
+    height: 1200px;
     background: #F7F7F7;
 }
 
@@ -471,8 +515,9 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 
 .retangulo {
     box-sizing: border-box;
-
-    position: absolute;
+    text-align: start;
+    margin-right: 30px;
+    display: flex;
     width: 462px;
     height: 261px;
     left: 213px;
@@ -484,7 +529,6 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 .retangulo1 {
     box-sizing: border-box;
 
-    position: absolute;
     width: 462px;
     height: 261px;
     left: 212px;
@@ -496,7 +540,7 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 .retangulo2 {
     box-sizing: border-box;
 
-    position: absolute;
+    
     width: 462px;
     height: 261px;
     left: 212px;
@@ -508,34 +552,47 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 
 .al1 {
     display: flex;
-    width: 1000px;
-    margin-left: 30%;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
     padding: 100px;
 }
 
-.al1 h2,
-.al2 h2,
-.al3 h2 {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 40px;
-
-    color: #FF4081;
+.al2 {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 400px;
 }
 
+.al3 {
+    text-align: center;
+    width: 1050px;
+    height: 400px;
+    justify-content: center;
+}
+
+
 .al1 h2 {
-    position: absolute;
+
     width: 512px;
     height: 40px;
     left: 751px;
     top: 734px;
 }
 
+.card-al1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+
+}
+
 .al1 p {
 
-    position: absolute;
+
     width: 501px;
     height: 195px;
     left: 751px;
@@ -544,7 +601,7 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 
 .al2 p {
 
-    position: absolute;
+    
     width: 501px;
     height: 195px;
     left: 750px;
@@ -552,7 +609,7 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 }
 
 .al2 h2 {
-    position: absolute;
+    
     width: 106px;
     height: 40px;
     left: 750px;
@@ -560,7 +617,7 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 }
 
 .al3 h2 {
-    position: absolute;
+    
     width: 512px;
     height: 40px;
     left: 750px;
@@ -569,15 +626,38 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 
 .al3 p {
 
-    position: absolute;
+    
     width: 501px;
     height: 195px;
     left: 750px;
     top: 1624px;
 }
 
+.card-al1 {
+    display: flex;
+    flex-direction: column;
+    width: 1050px;
+    height: 74px;
+    margin: 75px, 177px, 899px, 213px;
 
 }
+
+.card-al2 {
+    text-align: center;
+    display: flex;  
+    flex-direction: column;
+    width: 1050px;
+    height: 500px;
+
+}
+
+.card-al3 {
+    text-align: center;
+    display: flex;  
+    flex-direction: column;
+    
+}
+
 
 
 
