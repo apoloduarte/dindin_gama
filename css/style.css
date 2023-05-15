@@ -11,6 +11,7 @@ body {
     flex-wrap: wrap;
     font-family: 'Ubuntu';
     font-style: normal;
+    overflow-x: hidden;
 }
 
 /*STYLING PARA O CABEÇALHO E O RODAPÉ DE TODAS AS PÁGINAS*/
@@ -214,7 +215,7 @@ ESTRUTURA PADRÃO PARA NO HTML::after
         .
     </div>
  
-VEJA LINHA 33 DO ARQUIVO "index.html"
+VEJA LINHA 40 DO ARQUIVO "index.html"
   
 */
 .card-container {
@@ -253,8 +254,9 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 
 /*Primeira div "Educação Financeira é tudo de bom"*/
 
-.div-1-inicio {
-    /*setamos as dimenções da div que contei o card "Educação Financeira é tudo de bom"*/
+
+.div-1-inicio {    
+    .div-1-inicio{/*setamos as dimensões da div que contei o card "Educação Financeira é tudo de bom"*/
     width: 100vw;
     margin: 9.4vw 0 4.6vw 0;
 }
@@ -334,9 +336,9 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 
 /*           Terceira div: Depoimentos          */
 
-.div-3-inicio {
-    /**/
 
+.titulo-3e4-inicio{
+    padding: 8.3vw 49% 5.4vw 8.9vw;  
 }
 
 .subdiv-3-inicio {
@@ -345,18 +347,14 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
     justify-content: space-around;
     text-align: start;
     flex-direction: row;
-    width: 35vw;
+    width: 36vw;
     height: 10vw;
 }
 
 .depoimento,
 .nome-depoente {
     text-align: left;
-
-}
-
-.depoimento {
-    width: 25.2vw;
+  width: 22.5vw;
     height: 4.88vw;
     font-weight: 300;
     font-size: 15px;
@@ -364,9 +362,9 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
     color: #000000;
 }
 
-.nome-depoente {
-    width: 25.2vw;
-    height: auto;
+.nome-depoente{
+    width: 22.5vw;
+    height: 2vw;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -379,12 +377,95 @@ VEJA LINHA 33 DO ARQUIVO "index.html"
 }
 
 
+/*       Quarta div: "Mais Conteúdo Para Você"      */
 
-
+.div-4-inicio{
+    align-items: center;
+    background-color: #F7F7F7;
+    padding-bottom: 3.7vw;    
+}
+.subdiv-4-inicio{
+    width: 22.2vw;
+    margin: 0 5%;
+}
+.titulo-post-inicio{
+    padding-top: 1%;
+    text-align: start;
+}
+.subtitulo-post-inicio{
+    text-align: start;
+    width: 22.2vw;
+    padding-bottom: 7vw;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;   
+}
+#img-mockup{
+    width: 100%;
+}
+.botao-ver-posts{
+    justify-content: space-around;
+}
 
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "INICIO"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSOS"*/
+
+.conteudo-pagina2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom: 160px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.titulo-pagina2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  
+}
+.paragrafopagina2{
+    font-size: 20px;
+    color: #555555;
+    }
+.cards-pagina2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 140px;
+  
+}
+.card-pagina2 {
+    display: flex;
+    
+
+}
+.elementos-card-pagina2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    margin-left:3%;
+}
+
+.paragrafocardpagina2{
+    font-size: 18px;
+    text-align: left;
+}
+.botao-pagina2 {
+    align-items: center;
+}
+
+.linhahorizontal {
+    border: 5px solid #c4c4c4;
+    width: 100%;
+}
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSOS"*/
 
 .pag-cursos {
@@ -519,10 +600,124 @@ background: #C4C4C4;
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSO"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CONTATO"*/
+.div-contato{
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 10% 0;
+}
+.subdiv-contato{
+    width: 34vw;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    text-align: left;
+}
+.titulo-contato{
+    margin-bottom: 6%;
+}
+.subdiv-contato textarea{
+    text-align: left;
+    border: 1px solid #686868;
+    width: 100%;
+    margin: 1% 0;
+    padding-left:  5%;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #58555D;
+}
+.subdiv-contato input{
+    width: 120px;
+    margin: 0;
+}
+#img-contato{
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    height: 71%;
+    min-width: 100px;
+    min-height: 100px;
+}
+
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CONTATO"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "BLOG"*/
+#cabc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding-bottom: 89px;
+}
+#cabc section{
+    width: 461px;
+    height: 110px;
+    text-align: start;
+    
+    
+}
+#cabc h2{
+    padding-bottom: 40px;
+}
+.cont{
+    background-color: #F7F7F7;
+}
+#img-blog{
+    width: 36vw;
+    height: 17vw;
+}
+.blog-card{
+    width: 36vw;
+}
+.pad-top{
+    padding-top: 100px;
+}
+.txt-rs{
+    text-align: start;
+}
+.txt-cont{
+    text-align: start;
+    padding-bottom: 100px;
+}
+.pad-bt{
+    padding-bottom: 170px;
+}
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "BLOG"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "POST"*/
+
+.container-post{ /* Padronização de largura e altura do elemento container */
+    padding: 7.7vw 14.1vw 7.7vw 14.1vw; 
+}
+
+#img-p5{ /* Dimencionamento da imagem principal da pagina */
+    width: 72vw;
+    height: auto;
+    margin: 70px 0px 70px 0;
+}
+
+.data-post{ /* Estilização da fonte abaixo do titulo */
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9D9D9D;
+    margin-top: 12px;
+}
+
+.texto-post{ /* Padronização para o paragrafo se iniciar a esqueda */
+    text-align: start;
+}
+
+.subtitulo-post{ /* Padronização para os subtitulos se iniciarem a esqueda */
+    text-align: start;
+}
+
+.subtitulo1-post{ /* Alinhamento titulo das imagens do card final */
+width: 100vw;
+padding-bottom: 101px;
+}
+
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "POST"*/
+
