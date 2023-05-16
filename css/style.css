@@ -429,6 +429,133 @@ VEJA LINHA 40 DO ARQUIVO "index.html"
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSOS"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSO"*/
+
+.pag-cursos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 160px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card-intro {
+    text-align: left;
+    display: flex;
+    width: auto;
+    height: 381px;
+    left: 202px;
+    top: 197px;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.intro {
+    display: flex;
+    text-align: center;
+    height: 400px;
+    justify-content: center;
+    padding: 3%;
+}
+
+.intro h1 {
+
+    width: 512px;
+    height: 126px;
+    left: 202px;
+    top: 210px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+
+    color: #FF4081;
+}
+
+.intro p {
+
+    width: 461px;
+    height: 186px;
+    left: 202px;
+    top: 358px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+}
+
+.intro img {
+
+    left: 52.15%;
+    right: 21.46%;
+    top: 9.38%;
+    bottom: 72.49%;
+}
+
+
+.cursotitulo, .cursodesc {
+    padding: 3%;
+}
+
+.cardaulas {
+    width:100%;
+    padding: 0 30%;
+}
+
+
+.aulas{
+    width:100%;
+}
+
+#img-aula{
+    width: 462px;
+    height: 261px;
+}   
+
+.fundo {
+    height: 1200px;
+    width:100vw;
+    background: #F7F7F7;
+    padding: 3% 0;
+}
+
+.fundo {
+    width: 100vw;
+    height: 1200px;
+    background: #F7F7F7;
+}
+
+
+.linha {
+
+width: 90%;
+height: 3px;
+left: 98px;
+top: 1480px;
+
+background: #C4C4C4;
+}
+
+.linha1 {
+    width: 90%;
+height: 3px;
+left: 98px;
+top: 1480px;
+
+background: #C4C4C4;
+}
+
+
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSO"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CONTATO"*/
