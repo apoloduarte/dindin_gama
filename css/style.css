@@ -4,7 +4,8 @@
     margin: 0;
     border: 0;
 }
-body{
+
+body {
     display: flex;
     overflow: auto;
     flex-wrap: wrap;
@@ -15,7 +16,8 @@ body{
 
 /*STYLING PARA O CABEÇALHO E O RODAPÉ DE TODAS AS PÁGINAS*/
 
-header, footer{
+header,
+footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,16 +27,9 @@ header, footer{
     height: 117px;
     width: 100vw;
 }
-/* @media (max-width: 1000px){
-    header{
-        width: 
-    }
-    footer{
-        width: 
-    }
-} */
+
 /*Como tods as outras características foram estilizada acima, basta estilizar a altura do footer*/
-footer{
+footer {
     box-shadow: none;
     overflow: auto;
     flex-wrap: wrap;
@@ -43,19 +38,22 @@ footer{
 }
 
 /*Estilização das imagens do cabeçalho e rodapá*/
-#img-header{
-    width: 17vw; /*    A largura do elemento será 17% (pelo figma: 244px/1440px), 
+#img-header {
+    width: 17vw;
+    /*    A largura do elemento será 17% (pelo figma: 244px/1440px), 
                  relativo ao View Window Width (largura da área de visualização) */
-    height: 5.5vw;   
+    height: 5.5vw;
 }
-#img-footer{
+
+#img-footer {
     width: 21.86vw;
     height: 7.1vw;
 }
 
 /*Estilização dos links do cabeçalho e rodapé*/
-.header-link, .footer-link{
-    display: flex;    
+.header-link,
+.footer-link {
+    display: flex;
     text-decoration: none;
     font-weight: 700;
     font-size: 20px;
@@ -64,18 +62,20 @@ footer{
     color: #FDFDFD;
     margin: 0 2.78vw;
 }
-.nav-header{
+
+.nav-header {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: line;
     justify-content: space-between;
 }
 
-.footer-link{
+.footer-link {
     text-transform: lowercase;
     font-weight: 400;
 }
-li{
+
+li {
     list-style-type: none;
 }
 
@@ -88,7 +88,8 @@ FACILITAR MUDANÇAS FUTURAS.
 
 ************************************/
 
-.botao{/*ESTILIZA APENAS O BÁSICO DO BOTÃO*/
+.botao {
+    /*ESTILIZA APENAS O BÁSICO DO BOTÃO*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,32 +99,42 @@ FACILITAR MUDANÇAS FUTURAS.
     width: 289px;
     border-radius: 62px;
 }
-.preenchimento-transparente{
+
+.preenchimento-transparente {
     background-color: transparent;
 }
-.preenchimento-azul{
-    background-color:  #2E948A;
+
+.preenchimento-azul {
+    background-color: #2E948A;
 }
-.preenchimento-rosa{
+
+.preenchimento-rosa {
     background-color: #FF4081;
 }
-.contorno-branco{ /*DÁ A ELE UM CONTORNO BRANCO*/
+
+.contorno-branco {
+    /*DÁ A ELE UM CONTORNO BRANCO*/
     border: 2px solid #FFFFFF;
 }
-.contorno-azul{
+
+.contorno-azul {
     border: 2px solid #2E948A;
 }
-.contorno-rosa{
+
+.contorno-rosa {
     border: 2px solid #FF4081;
 }
-.texto-branco{ /*ESTILIZA A FONTE*/
+
+.texto-branco {
+    /*ESTILIZA A FONTE*/
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
 }
-.texto-rosa{
+
+.texto-rosa {
     font-weight: 400;
     font-size: 25px;
     line-height: 29px;
@@ -145,23 +156,29 @@ Cada um poderá receber uma de 2 cores disponíveis:
     2 - azul =  #2E948A;
 
 ***********************************************************/
-h1, h2, h3{
+h1,
+h2,
+h3 {
     font-weight: 700;
     font-size: 60px;
     line-height: 69px;
 }
-h2{
+
+h2 {
     font-size: 40px;
     line-height: 50px;
 }
-h3{
+
+h3 {
     font-size: 25px;
     line-height: 29px;
 }
-.rosa{
+
+.rosa {
     color: #FF4081;
 }
-.azul{
+
+.azul {
     color: #2E948A;
 }
 
@@ -201,23 +218,26 @@ ESTRUTURA PADRÃO PARA NO HTML::after
 VEJA LINHA 40 DO ARQUIVO "index.html"
   
 */
-.card-container{
+.card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
 }
-.card{
-    flex-direction: column;  
-    text-align: center;   
-}    
-.elemento-card{
+
+.card {
+    flex-direction: column;
+    text-align: center;
+}
+
+.elemento-card {
     align-items: center;
     margin: auto;
 }
-#img-card{
+
+#img-card {
     object-fit: cover;
     width: auto;
-    min-width: 200px ;
+    min-width: 200px;
     height: 18.8vw;
     min-height: 270px;
 }
@@ -234,16 +254,22 @@ VEJA LINHA 40 DO ARQUIVO "index.html"
 
 /*Primeira div "Educação Financeira é tudo de bom"*/
 
-.div-1-inicio{/*setamos as dimensões da div que contei o card "Educação Financeira é tudo de bom"*/
+
+.div-1-inicio {    
+    .div-1-inicio{/*setamos as dimensões da div que contei o card "Educação Financeira é tudo de bom"*/
     width: 100vw;
     margin: 9.4vw 0 4.6vw 0;
 }
-.subdiv-1-inicio{/*sobrescrevemos as propriedades de alinhamento para que
+
+.subdiv-1-inicio {
+    /*sobrescrevemos as propriedades de alinhamento para que
                  tudo se alinhe à esqued nesse card, como no Figma      */
-      margin: 0;
-      text-align: left;
+    margin: 0;
+    text-align: left;
 }
-#index-ilustra-banner{/*Configuramos as dimensões da imagem da primeira div*/
+
+#index-ilustra-banner {
+    /*Configuramos as dimensões da imagem da primeira div*/
     display: flex;
     justify-content: space-evenly;
     width: 34.8vw;
@@ -251,11 +277,15 @@ VEJA LINHA 40 DO ARQUIVO "index.html"
     min-width: 334px;
     min-height: 340.7px;
 }
-.subdiv-1-inicio h1{/*dimensionamos a área da caixa de testo contendo o título*/
+
+.subdiv-1-inicio h1 {
+    /*dimensionamos a área da caixa de testo contendo o título*/
     width: 32vw;
     height: auto;
 }
-.subdiv-1-inicio p{/*Especificamos as dimensões para o parágrafo que segue o 
+
+.subdiv-1-inicio p {
+    /*Especificamos as dimensões para o parágrafo que segue o 
                    título, assim como as características da fonte          */
     width: 25vw;
     height: 4.3vw;
@@ -265,30 +295,38 @@ VEJA LINHA 40 DO ARQUIVO "index.html"
     line-height: 31px;
     color: #555555;
 }
-.subdiv-1-inicio a{
-    margin: 0;/*Esta linha garante que o botão esteja alinhado à esqueda*/
+
+.subdiv-1-inicio a {
+    margin: 0;
+    /*Esta linha garante que o botão esteja alinhado à esqueda*/
 }
 
 
 /*        Segunda div: Carrocel de Cursos      */
 
 
-.div-2-inicio{/*Estilizamos todo o carrocel*/
+.div-2-inicio {
+    /*Estilizamos todo o carrocel*/
     background-color: #F7F7F7;
-    padding: 7.6vw  0;
+    padding: 7.6vw 0;
 }
 
-.subdiv-2-inicio{/*Estilizamos as dimensões dos cards*/
+.subdiv-2-inicio {
+    /*Estilizamos as dimensões dos cards*/
     width: 25vw;
     min-width: 304px;
     height: 34.9vw;
     min-height: 502px;
 }
-.subdiv-2-inicio h3{/*Garantimos espaçamento adequado neste título*/
+
+.subdiv-2-inicio h3 {
+    /*Garantimos espaçamento adequado neste título*/
     margin-top: 45px;
 }
-.subdiv-2-inicio p{/*Assim como no parágrafo de suporte*/
-    margin: 25px 0; 
+
+.subdiv-2-inicio p {
+    /*Assim como no parágrafo de suporte*/
+    margin: 25px 0;
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
@@ -298,13 +336,13 @@ VEJA LINHA 40 DO ARQUIVO "index.html"
 
 /*           Terceira div: Depoimentos          */
 
-.div-3-inicio{
-    padding-bottom: 10.8vw;
-}
+
 .titulo-3e4-inicio{
-    padding: 8.3vw 49% 5.4vw 8.9vw;    
+    padding: 8.3vw 49% 5.4vw 8.9vw;  
 }
-.subdiv-3-inicio{/*Estilizamos as dimensões dos cards*/
+
+.subdiv-3-inicio {
+    /*Estilizamos as dimensões dos cards*/
     display: inline-flex;
     justify-content: space-around;
     text-align: start;
@@ -312,17 +350,18 @@ VEJA LINHA 40 DO ARQUIVO "index.html"
     width: 36vw;
     height: 10vw;
 }
-.depoimento, .nome-depoente{
+
+.depoimento,
+.nome-depoente {
     text-align: left;
-}
-.depoimento{
-    width: 22.5vw;
+  width: 22.5vw;
     height: 4.88vw;
     font-weight: 300;
     font-size: 15px;
     line-height: 17px;
     color: #000000;
 }
+
 .nome-depoente{
     width: 22.5vw;
     height: 2vw;
@@ -331,9 +370,10 @@ VEJA LINHA 40 DO ARQUIVO "index.html"
     line-height: 25px;
     color: #000000;
 }
-#img-depoente{
-   height: 9vw;
-   width: 9vw;
+
+#img-depoente {
+    height: 9vw;
+    width: 9vw;
 }
 
 
@@ -428,7 +468,135 @@ VEJA LINHA 40 DO ARQUIVO "index.html"
 }
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSOS"*/
 
-/*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSO"*/
+.pag-cursos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 160px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card-intro {
+    text-align: left;
+    display: flex;
+    width: auto;
+    height: 381px;
+    left: 202px;
+    top: 197px;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.intro {
+    display: flex;
+    text-align: center;
+    height: 400px;
+    justify-content: center;
+    padding: 3%;
+}
+
+.intro h1 {
+
+    width: 512px;
+    height: 126px;
+    left: 202px;
+    top: 210px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+
+    color: #FF4081;
+}
+
+.intro p {
+
+    width: 461px;
+    height: 186px;
+    left: 202px;
+    top: 358px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+}
+
+.intro img {
+
+    left: 52.15%;
+    right: 21.46%;
+    top: 9.38%;
+    bottom: 72.49%;
+}
+
+
+
+/*EM CIMA É A INTRODUÇÃO DOS CURSOS*/
+
+.cursotitulo, .cursodesc {
+    padding: 3%;
+}
+
+.cardaulas {
+    width:100%;
+    padding: 0 30%;
+}
+
+
+.aulas{
+    width:100%;
+}
+
+#img-aula{
+    width: 462px;
+    height: 261px;
+}   
+
+.fundo {
+    height: 1200px;
+    width:100vw;
+    background: #F7F7F7;
+    padding: 3% 0;
+}
+
+.fundo {
+    width: 100vw;
+    height: 1200px;
+    background: #F7F7F7;
+}
+
+
+.linha {
+
+width: 90%;
+height: 3px;
+left: 98px;
+top: 1480px;
+
+background: #C4C4C4;
+}
+
+.linha1 {
+    width: 90%;
+height: 3px;
+left: 98px;
+top: 1480px;
+
+background: #C4C4C4;
+}
+
+
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSO"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CONTATO"*/
