@@ -429,6 +429,60 @@ VEJA LINHA 40 DO ARQUIVO "index.html"
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSOS"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSO"*/
+
+.cursotitulo, .cursodesc {
+    padding: 3%;
+}
+
+.cardaulas {
+    width:100%;
+    padding: 0 30%;
+}
+
+
+.aulas{
+    width:100%;
+}
+
+#img-aula{
+    width: 462px;
+    height: 261px;
+}   
+
+.fundo {
+    height: 1200px;
+    width:100vw;
+    background: #F7F7F7;
+    padding: 3% 0;
+}
+
+.fundo {
+    width: 100vw;
+    height: 1200px;
+    background: #F7F7F7;
+}
+
+
+.linha {
+
+width: 90%;
+height: 3px;
+left: 98px;
+top: 1480px;
+
+background: #C4C4C4;
+}
+
+.linha1 {
+    width: 90%;
+height: 3px;
+left: 98px;
+top: 1480px;
+
+background: #C4C4C4;
+}
+
+
 /*FIM ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CURSO"*/
 
 /*INÍCIO ESTILIZAÇÃO ESPECÍFICA PARA PÁGINA "CONTATO"*/
